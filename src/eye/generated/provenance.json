@@ -1,0 +1,1331 @@
+{
+  "output": {
+    "file": "public/models/eye.glb",
+    "bytes": 3799480,
+    "sha256": "c4195855cb92b34b52974236b662f612c10a9a183f59889d87aab1a7be64d92e",
+    "triangles": 184208,
+    "sourceTriangles": 487830
+  },
+  "sources": {
+    "organs": {
+      "eye": {
+        "name": "3D Reference Organ for Eye, Female, Right, v1.3",
+        "doi": "https://doi.org/10.48539/HBM632.KTDP.379",
+        "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/eye-female-right/v1.3/assets/3d-vh-f-eye-r.glb",
+        "creators": "Kristen Browne, Heidi Schlehlein",
+        "license": "CC-BY-4.0",
+        "bytes": 20697640,
+        "sha256": "d7929a4abbda66813af99761c9c328826248188294f69c2e22b29704f9beabfa"
+      },
+      "brain": {
+        "name": "3D Reference Organ for Brain, Female, v1.4 (Allen human brain atlas)",
+        "doi": "https://doi.org/10.48539/HBM674.NTLM.353",
+        "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/brain-female/v1.4/assets/3d-allen-f-brain.glb",
+        "creators": "Kristen Browne, Heidi Schlehlein",
+        "license": "CC-BY-4.0",
+        "bytes": 11983380,
+        "sha256": "f20d87a347f8d5c6467439cba7db18f19307d29b2c3e0c2b6ddb7e9d49e1c1fc"
+      }
+    },
+    "united": {
+      "name": "3D Reference Organ Set for Female v1.5 (HuBMAP HRA united female), as converted by Female Atlas",
+      "creators": "Kristen Browne, Heidi Schlehlein",
+      "doi": "https://doi.org/10.48539/HBM352.BTSQ.586",
+      "license": "CC-BY-4.0",
+      "intermediate": "github.com/Niyaz-05/female-atlas, commit 4c2dfcca02739b59827601915128ee64abdff2ea",
+      "atlasJsonSha256": "5fec63b2ebcb76ecd9c33027ed725e8ec0a7a76b756f72681285410072ae5c51",
+      "chunkSha256": {
+        "female-4.bin": "5f2906d7ebff3d3b0cb6ba57977cdc9704b9ea96c9aa7fcf56bef35f48213ae6",
+        "female-1.bin": "51539dfffe4553f163cc3ab727dd2f5fb61b80c6f82fdca43c9f3edeb84106c3",
+        "female-6.bin": "e9d9b27b52799f9ce155f666a93f2150c6822e9dc6669ab87f4d3a2df1eae9f0"
+      },
+      "transformReversed": "y - 0.794760942 m (the official organ files match these parts after this translation)"
+    },
+    "bodyparts3d": {
+      "name": "BodyParts3D 4.0 (Database Center for Life Science), via the Human Atlas build",
+      "license": "CC-BY-4.0",
+      "intermediate": "github.com/Niyaz-05/human-atlas, commit 76f069640f2c3dd40a58d1556896ac25008f592e",
+      "atlasJsonSha256": "c359f4bcd2cba90b7411d66d5e9fc04dc81294d46cd5c1e8b212c824f2e5bbee",
+      "chunkSha256": {
+        "body-0.bin": "b33b2b5aac20f35fbf6871f916607bf3c4d386321c8c0fdadcca6b5d24e3641e",
+        "body-12.bin": "61a6c8da89bb20df50c575964ac81aa4090eabfc2cb27ad2155aea325f31c6c0",
+        "body-13.bin": "4c51b6be85d5b705d2b52b79b9ad1cdae0b65ad03c9402a2f2673c7633fd94f3"
+      },
+      "parts": {
+        "levator-palpebrae": [
+          "FJ1357 Right levator palpebrae superioris",
+          "FJ1343 Tendon of right levator palpebrae superioris"
+        ],
+        "trochlea": [
+          "FJ1380 Trochlea of right superior oblique"
+        ],
+        "common-tendinous-ring": [
+          "FJ1342 Right common tendinous ring"
+        ],
+        "check-ligaments": [
+          "FJ1334 Check ligament of right lateral rectus",
+          "FJ1335 Check ligament of right medial rectus"
+        ],
+        "oculomotor-superior": [
+          "FJ1372 Superior branch of right oculomotor nerve"
+        ],
+        "oculomotor-inferior": [
+          "FJ1344 Inferior branch of right oculomotor nerve"
+        ],
+        "trochlear-nerve": [
+          "FJ1381 Right trochlear nerve"
+        ],
+        "ophthalmic-nerve": [
+          "FJ1363 Right ophthalmic nerve"
+        ],
+        "nasociliary-nerve": [
+          "FJ1361 Right nasociliary nerve",
+          "FJ1362 Communicating branch of right nasociliary nerve with right ciliary ganglion"
+        ],
+        "frontal-nerve": [
+          "FJ1341 Right frontal nerve",
+          "FJ1376 Right supra-orbital nerve",
+          "FJ1377 Right supratrochlear nerve"
+        ],
+        "lacrimal-nerve": [
+          "FJ1351 Right lacrimal nerve"
+        ],
+        "infratrochlear-nerve": [
+          "FJ1347 Right infratrochlear nerve"
+        ],
+        "ethmoidal-nerves": [
+          "FJ1333 Right anterior ethmoidal nerve",
+          "FJ1366 Right posterior ethmoidal nerve"
+        ],
+        "ciliary-ganglion": [
+          "FJ1339 Right ciliary ganglion"
+        ],
+        "ciliary-nerves": [
+          "FJ1369 Right long ciliary nerve",
+          "FJ1370 Short ciliary nerve"
+        ],
+        "lacrimal-gland": [
+          "FJ1350 Right lacrimal gland"
+        ],
+        "lacrimal-lake": [
+          "FJ1352 Right lacrimal lake"
+        ],
+        "lacrimal-canaliculi": [
+          "FJ1349 Right lacrimal canaliculus"
+        ],
+        "lacrimal-sac": [
+          "FJ1360 Right lacrimal sac"
+        ],
+        "nasolacrimal-duct": [
+          "FJ1353 Right nasolacrimal duct"
+        ],
+        "tarsal-plate-upper": [
+          "FJ1375 Tarsal plate of right upper eyelid"
+        ],
+        "tarsal-plate-lower": [
+          "FJ1379 Tarsal plate of right lower eyelid"
+        ],
+        "frontal-bone": [
+          "FJ3200 Frontal bone"
+        ],
+        "sphenoid-bone": [
+          "FJ3394 Sphenoid bone"
+        ],
+        "ethmoid-bone": [
+          "FJ3199 Ethmoid"
+        ],
+        "maxilla": [
+          "FJ3375 Right maxilla"
+        ],
+        "zygomatic-bone": [
+          "FJ3392 Right zygomatic bone"
+        ],
+        "lacrimal-bone": [
+          "FJ3371 Right lacrimal bone"
+        ],
+        "palatine-bone": [
+          "FJ3379 Right palatine bone"
+        ],
+        "nasal-bone": [
+          "FJ3378 Right nasal bone"
+        ],
+        "inferior-nasal-concha": [
+          "FJ3369 Right inferior nasal concha"
+        ]
+      },
+      "registration": {
+        "method": "similarity (rotation, uniform scale, shift) fitted on landmark centroids (Horn quaternion method)",
+        "fits": {
+          "orbit": {
+            "usedFor": [
+              "levator-palpebrae",
+              "trochlea",
+              "common-tendinous-ring",
+              "check-ligaments",
+              "oculomotor-superior",
+              "oculomotor-inferior",
+              "trochlear-nerve",
+              "ophthalmic-nerve",
+              "nasociliary-nerve",
+              "frontal-nerve",
+              "lacrimal-nerve",
+              "infratrochlear-nerve",
+              "ethmoidal-nerves",
+              "ciliary-ganglion",
+              "ciliary-nerves",
+              "lacrimal-gland",
+              "lacrimal-lake",
+              "lacrimal-canaliculi",
+              "lacrimal-sac",
+              "nasolacrimal-duct",
+              "tarsal-plate-upper",
+              "tarsal-plate-lower"
+            ],
+            "scale": 1.169416,
+            "rotationDeg": 17.49407,
+            "rmsResidualMm": 4.813931,
+            "residuals": [
+              {
+                "landmark": "FJ1368 Right sclera",
+                "mm": 3.58985
+              },
+              {
+                "landmark": "FJ1340 Right cornea",
+                "mm": 5.022501
+              },
+              {
+                "landmark": "FJ1356 Right lens",
+                "mm": 3.544108
+              },
+              {
+                "landmark": "FJ1382 Right vitreous body",
+                "mm": 4.156473
+              },
+              {
+                "landmark": "FJ1355 Right lateral rectus",
+                "mm": 3.275446
+              },
+              {
+                "landmark": "FJ1359 Right medial rectus",
+                "mm": 4.908827
+              },
+              {
+                "landmark": "FJ1374 Right superior rectus",
+                "mm": 4.996236
+              },
+              {
+                "landmark": "FJ1346 Right inferior rectus",
+                "mm": 4.284018
+              },
+              {
+                "landmark": "FJ1373 Right superior oblique",
+                "mm": 5.656556
+              },
+              {
+                "landmark": "FJ1345 Right inferior oblique",
+                "mm": 7.324811
+              }
+            ]
+          },
+          "skull": {
+            "usedFor": [
+              "frontal-bone",
+              "sphenoid-bone",
+              "ethmoid-bone",
+              "maxilla",
+              "zygomatic-bone",
+              "lacrimal-bone",
+              "palatine-bone",
+              "nasal-bone",
+              "inferior-nasal-concha"
+            ],
+            "scale": 1.143466,
+            "rotationDeg": 14.724376,
+            "rmsResidualMm": 4.728231,
+            "residuals": [
+              {
+                "landmark": "FJ1368 Right sclera",
+                "mm": 3.827664
+              },
+              {
+                "landmark": "FJ1340 Right cornea",
+                "mm": 6.613021
+              },
+              {
+                "landmark": "FJ1356 Right lens",
+                "mm": 3.876652
+              },
+              {
+                "landmark": "FJ1382 Right vitreous body",
+                "mm": 4.341046
+              },
+              {
+                "landmark": "FJ1355 Right lateral rectus",
+                "mm": 4.116015
+              },
+              {
+                "landmark": "FJ1359 Right medial rectus",
+                "mm": 3.406494
+              },
+              {
+                "landmark": "FJ1374 Right superior rectus",
+                "mm": 5.19059
+              },
+              {
+                "landmark": "FJ1346 Right inferior rectus",
+                "mm": 3.241568
+              },
+              {
+                "landmark": "FJ1373 Right superior oblique",
+                "mm": 7.283703
+              },
+              {
+                "landmark": "FJ1345 Right inferior oblique",
+                "mm": 6.374377
+              },
+              {
+                "landmark": "FJ1317 Left sclera",
+                "mm": 3.309653
+              },
+              {
+                "landmark": "FJ1289 Left cornea",
+                "mm": 3.624283
+              },
+              {
+                "landmark": "FJ1305 Left lens",
+                "mm": 3.791693
+              },
+              {
+                "landmark": "FJ1304 Left lateral rectus",
+                "mm": 2.646641
+              },
+              {
+                "landmark": "FJ1308 Left medial rectus",
+                "mm": 3.349177
+              },
+              {
+                "landmark": "FJ1323 Left superior rectus",
+                "mm": 2.715406
+              },
+              {
+                "landmark": "FJ1295 Left inferior rectus",
+                "mm": 3.57385
+              },
+              {
+                "landmark": "FJ1322 Left superior oblique",
+                "mm": 8.093497
+              },
+              {
+                "landmark": "FJ1294 Left inferior oblique",
+                "mm": 5.521947
+              }
+            ]
+          }
+        }
+      },
+      "verticesInsideEyeballPct": {
+        "before": {
+          "levator-palpebrae": 0,
+          "trochlea": 0,
+          "common-tendinous-ring": 0,
+          "check-ligaments": 0,
+          "oculomotor-superior": 0,
+          "oculomotor-inferior": 0,
+          "trochlear-nerve": 0,
+          "ophthalmic-nerve": 0,
+          "nasociliary-nerve": 0,
+          "frontal-nerve": 0,
+          "lacrimal-nerve": 0,
+          "infratrochlear-nerve": 0,
+          "ethmoidal-nerves": 0,
+          "ciliary-ganglion": 0,
+          "ciliary-nerves": 8.392857,
+          "lacrimal-gland": 0,
+          "lacrimal-lake": 0,
+          "lacrimal-canaliculi": 0,
+          "lacrimal-sac": 0,
+          "nasolacrimal-duct": 0,
+          "tarsal-plate-upper": 7.386364,
+          "tarsal-plate-lower": 0,
+          "frontal-bone": 0,
+          "sphenoid-bone": 0,
+          "ethmoid-bone": 0,
+          "maxilla": 0,
+          "zygomatic-bone": 0,
+          "lacrimal-bone": 0,
+          "palatine-bone": 0,
+          "nasal-bone": 0,
+          "inferior-nasal-concha": 0
+        },
+        "after": {
+          "levator-palpebrae": 0,
+          "trochlea": 0,
+          "common-tendinous-ring": 0,
+          "check-ligaments": 0,
+          "oculomotor-superior": 0,
+          "oculomotor-inferior": 0,
+          "trochlear-nerve": 0,
+          "ophthalmic-nerve": 0,
+          "nasociliary-nerve": 0,
+          "frontal-nerve": 0,
+          "lacrimal-nerve": 0,
+          "infratrochlear-nerve": 0,
+          "ethmoidal-nerves": 0,
+          "ciliary-ganglion": 0,
+          "ciliary-nerves": 8.392857,
+          "lacrimal-gland": 0,
+          "lacrimal-lake": 0,
+          "lacrimal-canaliculi": 0,
+          "lacrimal-sac": 0,
+          "nasolacrimal-duct": 0,
+          "tarsal-plate-upper": 0,
+          "tarsal-plate-lower": 0,
+          "frontal-bone": 0,
+          "sphenoid-bone": 0,
+          "ethmoid-bone": 0,
+          "maxilla": 0,
+          "zygomatic-bone": 0,
+          "lacrimal-bone": 0,
+          "palatine-bone": 0,
+          "nasal-bone": 0,
+          "inferior-nasal-concha": 0
+        }
+      }
+    }
+  },
+  "changesHere": "Selected and merged the source meshes in src/eye/source/structures.source.json; welded coincident vertices; simplified each HRA mesh with meshoptimizer within a 0.4 % relative error bound (largest error used: 0.399 %); subdivided and smoothed the small BodyParts3D parts; recomputed smooth normals; placed the BodyParts3D parts onto the HRA eyes; translated so the right eyeball's centre is the origin.",
+  "centreOffsetMetres": [
+    -0.041396,
+    0.765374,
+    0.018763
+  ],
+  "byPositionPicks": {
+    "optic-tract-right": [
+      "Allen_optic_tract_L"
+    ],
+    "optic-tract-left": [
+      "Allen_optic_tract_R"
+    ],
+    "lgn-right": [
+      "Allen_dorsal_lateral_geniculate_nucleus_L"
+    ],
+    "lgn-left": [
+      "Allen_dorsal_lateral_geniculate_nucleus_R"
+    ],
+    "optic-radiation-right": [
+      "Allen_optic_radiation_L"
+    ],
+    "optic-radiation-left": [
+      "Allen_optic_radiation_R"
+    ],
+    "visual-cortex-right": [
+      "Allen_cuneus_L",
+      "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L",
+      "Allen_occipital_pole_L"
+    ],
+    "visual-cortex-left": [
+      "Allen_cuneus_R",
+      "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R",
+      "Allen_occipital_pole_R"
+    ]
+  },
+  "optics": {
+    "axis": [
+      -0.082553,
+      0.032234,
+      0.996065
+    ],
+    "corneaApex": [
+      -0.001319,
+      0.000688,
+      0.013714
+    ],
+    "lensCentre": [
+      -0.000454,
+      0.000095,
+      0.008989
+    ],
+    "pupilCentre": [
+      -0.000497,
+      0.00007,
+      0.010705
+    ],
+    "axialLengthMm": 23.682677,
+    "anteriorChamberDepthMm": 3.008724,
+    "lensThicknessMm": 4.056674,
+    "lensDiameterMm": 7.979535,
+    "irisDiameterMm": 10.532153,
+    "pupilDiameterMm": 3.030546,
+    "corneaDiameterMm": 12.657989,
+    "rotationCentre": [
+      -0.000219,
+      0.000258,
+      0.000445
+    ],
+    "fovea": [
+      -0.000031,
+      -0.000398,
+      -0.009462
+    ],
+    "opticDisc": [
+      0.003596,
+      0.000033,
+      -0.009121
+    ]
+  },
+  "orientationChecks": {
+    "corneaInFrontOfLens": true,
+    "retinaBehindLens": true,
+    "opticNerveBehindEye": true,
+    "lacrimalGlandUpAndOut": true,
+    "lacrimalSacMedial": true,
+    "nasolacrimalDuctDown": true,
+    "chiasmBehindEyes": true,
+    "cortexMostPosterior": true,
+    "leftEyeOnLeft": true,
+    "superiorRectusAbove": true,
+    "lateralRectusLateral": true
+  },
+  "routeGapsMm": {
+    "lacrimal-gland→conjunctiva": 10.056838,
+    "lacrimal-lake→lacrimal-canaliculi": 0.014731,
+    "lacrimal-canaliculi→lacrimal-sac": 0.083528,
+    "lacrimal-sac→nasolacrimal-duct": 0.06926
+  },
+  "routeCentrelineFallbacks": [],
+  "structures": [
+    {
+      "id": "cornea",
+      "official": [
+        [
+          "eye",
+          "VH_F_cornea_R"
+        ]
+      ]
+    },
+    {
+      "id": "limbus",
+      "official": [
+        [
+          "eye",
+          "VH_F_corneo_scleral_junction_R"
+        ]
+      ]
+    },
+    {
+      "id": "sclera",
+      "official": [
+        [
+          "eye",
+          "VH_F_sclera_R"
+        ]
+      ]
+    },
+    {
+      "id": "bulbar-conjunctiva",
+      "official": [
+        [
+          "eye",
+          "VH_F_bulbar_conjunctiva_R"
+        ]
+      ]
+    },
+    {
+      "id": "palpebral-conjunctiva-upper",
+      "official": [
+        [
+          "eye",
+          "VH_F_palpebral_conjunctiva_of_right_upper_eyelid"
+        ]
+      ]
+    },
+    {
+      "id": "palpebral-conjunctiva-lower",
+      "official": [
+        [
+          "eye",
+          "VH_F_palpebral_conjunctiva_of_right_lower_eyelid"
+        ]
+      ]
+    },
+    {
+      "id": "iris",
+      "official": [
+        [
+          "eye",
+          "VH_F_iris_R"
+        ]
+      ]
+    },
+    {
+      "id": "ciliary-body",
+      "official": [
+        [
+          "eye",
+          "VH_F_ciliary_body_R"
+        ]
+      ]
+    },
+    {
+      "id": "ciliary-muscle",
+      "official": [
+        [
+          "eye",
+          "VH_F_ciliary_muscle_R"
+        ]
+      ]
+    },
+    {
+      "id": "ciliary-processes",
+      "official": [
+        [
+          "eye",
+          "VH_F_ciliary_processes_R"
+        ]
+      ]
+    },
+    {
+      "id": "choroid",
+      "official": [
+        [
+          "eye",
+          "VH_F_optic_choroid_R"
+        ]
+      ]
+    },
+    {
+      "id": "retina",
+      "official": [
+        [
+          "eye",
+          "VH_F_retina_R"
+        ]
+      ]
+    },
+    {
+      "id": "ora-serrata",
+      "official": [
+        [
+          "eye",
+          "VH_F_ora_serrata_of_retina_R"
+        ]
+      ]
+    },
+    {
+      "id": "macula",
+      "official": [
+        [
+          "eye",
+          "VH_F_macula_lutea_R"
+        ]
+      ]
+    },
+    {
+      "id": "fovea",
+      "official": [
+        [
+          "eye",
+          "VH_F_fovea_R"
+        ]
+      ]
+    },
+    {
+      "id": "optic-disc",
+      "official": [
+        [
+          "eye",
+          "VH_F_optic_disc_R"
+        ]
+      ]
+    },
+    {
+      "id": "lens",
+      "official": [
+        [
+          "eye",
+          "VH_F_lens_R"
+        ]
+      ]
+    },
+    {
+      "id": "zonule",
+      "official": [
+        [
+          "eye",
+          "VH_F_suspensory_ligament_of_lens_R"
+        ]
+      ]
+    },
+    {
+      "id": "aqueous-humour",
+      "official": [
+        [
+          "eye",
+          "VH_F_aqueous_humor_R"
+        ]
+      ]
+    },
+    {
+      "id": "trabecular-meshwork",
+      "official": [
+        [
+          "eye",
+          "VH_F_trabecular_meshwork_R"
+        ]
+      ]
+    },
+    {
+      "id": "schlemm-canal",
+      "official": [
+        [
+          "eye",
+          "VH_F_schlemms_canal_R"
+        ]
+      ]
+    },
+    {
+      "id": "vitreous",
+      "official": [
+        [
+          "eye",
+          "VH_F_vitreous_humor_R"
+        ]
+      ]
+    },
+    {
+      "id": "lateral-rectus",
+      "united": [
+        "VH_F_lateral_rectus_extraocular_muscle_R"
+      ]
+    },
+    {
+      "id": "medial-rectus",
+      "united": [
+        "VH_F_medial_rectus_extraocular_muscle_R"
+      ]
+    },
+    {
+      "id": "superior-rectus",
+      "united": [
+        "VH_F_superior_rectus_extraocular_muscle_R"
+      ]
+    },
+    {
+      "id": "inferior-rectus",
+      "united": [
+        "VH_F_inferior_rectus_extraocular_muscle_R"
+      ]
+    },
+    {
+      "id": "superior-oblique",
+      "united": [
+        "VH_F_superior_oblique_extraocular_muscle_R"
+      ]
+    },
+    {
+      "id": "inferior-oblique",
+      "united": [
+        "VH_F_inferior_oblique_extraocular_muscle_R"
+      ]
+    },
+    {
+      "id": "levator-palpebrae",
+      "bp3d": [
+        "FJ1357",
+        "FJ1343"
+      ]
+    },
+    {
+      "id": "trochlea",
+      "bp3d": [
+        "FJ1380"
+      ]
+    },
+    {
+      "id": "common-tendinous-ring",
+      "bp3d": [
+        "FJ1342"
+      ]
+    },
+    {
+      "id": "check-ligaments",
+      "bp3d": [
+        "FJ1334",
+        "FJ1335"
+      ]
+    },
+    {
+      "id": "optic-nerve",
+      "united": [
+        "VH_F_right_optic_nerve"
+      ]
+    },
+    {
+      "id": "oculomotor-superior",
+      "bp3d": [
+        "FJ1372"
+      ]
+    },
+    {
+      "id": "oculomotor-inferior",
+      "bp3d": [
+        "FJ1344"
+      ]
+    },
+    {
+      "id": "trochlear-nerve",
+      "bp3d": [
+        "FJ1381"
+      ]
+    },
+    {
+      "id": "ophthalmic-nerve",
+      "bp3d": [
+        "FJ1363"
+      ]
+    },
+    {
+      "id": "nasociliary-nerve",
+      "bp3d": [
+        "FJ1361",
+        "FJ1362"
+      ]
+    },
+    {
+      "id": "frontal-nerve",
+      "bp3d": [
+        "FJ1341",
+        "FJ1376",
+        "FJ1377"
+      ]
+    },
+    {
+      "id": "lacrimal-nerve",
+      "bp3d": [
+        "FJ1351"
+      ]
+    },
+    {
+      "id": "infratrochlear-nerve",
+      "bp3d": [
+        "FJ1347"
+      ]
+    },
+    {
+      "id": "ethmoidal-nerves",
+      "bp3d": [
+        "FJ1333",
+        "FJ1366"
+      ]
+    },
+    {
+      "id": "ciliary-ganglion",
+      "bp3d": [
+        "FJ1339"
+      ]
+    },
+    {
+      "id": "ciliary-nerves",
+      "bp3d": [
+        "FJ1369",
+        "FJ1370"
+      ]
+    },
+    {
+      "id": "ophthalmic-artery",
+      "united": [
+        "VH_F_opthalmic_artery_R"
+      ]
+    },
+    {
+      "id": "central-retinal-artery",
+      "united": [
+        "VH_F_central_retinal_artery_R"
+      ]
+    },
+    {
+      "id": "central-retinal-vein",
+      "united": [
+        "VH_F_central_retinal_vein_R"
+      ]
+    },
+    {
+      "id": "posterior-ciliary-arteries",
+      "united": [
+        "VH_F_long_posterior_ciliary_artery_R"
+      ]
+    },
+    {
+      "id": "ophthalmic-veins",
+      "united": [
+        "VH_F_ophthalmic_vein_R",
+        "VH_F_superior_ophthalmic_vein_R",
+        "VH_F_inferior_ophthalmic_vein_R"
+      ]
+    },
+    {
+      "id": "lacrimal-gland",
+      "bp3d": [
+        "FJ1350"
+      ]
+    },
+    {
+      "id": "lacrimal-lake",
+      "bp3d": [
+        "FJ1352"
+      ]
+    },
+    {
+      "id": "lacrimal-canaliculi",
+      "bp3d": [
+        "FJ1349"
+      ]
+    },
+    {
+      "id": "lacrimal-sac",
+      "bp3d": [
+        "FJ1360"
+      ]
+    },
+    {
+      "id": "nasolacrimal-duct",
+      "bp3d": [
+        "FJ1353"
+      ]
+    },
+    {
+      "id": "tarsal-plate-upper",
+      "bp3d": [
+        "FJ1375"
+      ]
+    },
+    {
+      "id": "tarsal-plate-lower",
+      "bp3d": [
+        "FJ1379"
+      ]
+    },
+    {
+      "id": "frontal-bone",
+      "bp3d": [
+        "FJ3200"
+      ]
+    },
+    {
+      "id": "sphenoid-bone",
+      "bp3d": [
+        "FJ3394"
+      ]
+    },
+    {
+      "id": "ethmoid-bone",
+      "bp3d": [
+        "FJ3199"
+      ]
+    },
+    {
+      "id": "maxilla",
+      "bp3d": [
+        "FJ3375"
+      ]
+    },
+    {
+      "id": "zygomatic-bone",
+      "bp3d": [
+        "FJ3392"
+      ]
+    },
+    {
+      "id": "lacrimal-bone",
+      "bp3d": [
+        "FJ3371"
+      ]
+    },
+    {
+      "id": "palatine-bone",
+      "bp3d": [
+        "FJ3379"
+      ]
+    },
+    {
+      "id": "nasal-bone",
+      "bp3d": [
+        "FJ3378"
+      ]
+    },
+    {
+      "id": "inferior-nasal-concha",
+      "bp3d": [
+        "FJ3369"
+      ]
+    },
+    {
+      "id": "left-eyeball",
+      "united": [
+        "VH_F_sclera_L",
+        "VH_F_cornea_L"
+      ]
+    },
+    {
+      "id": "left-iris",
+      "united": [
+        "VH_F_iris_L"
+      ]
+    },
+    {
+      "id": "left-lens",
+      "united": [
+        "VH_F_lens_L"
+      ]
+    },
+    {
+      "id": "left-retina",
+      "united": [
+        "VH_F_retina_L",
+        "VH_F_optic_disc_L",
+        "VH_F_macula_lutea_L",
+        "VH_F_fovea_L"
+      ]
+    },
+    {
+      "id": "left-eye-muscles",
+      "united": [
+        "VH_F_lateral_rectus_extraocular_muscle_L",
+        "VH_F_medial_rectus_extraocular_muscle_L",
+        "VH_F_superior_rectus_extraocular_muscle_L",
+        "VH_F_inferior_rectus_extraocular_muscle_L",
+        "VH_F_superior_oblique_extraocular_muscle_L",
+        "VH_F_inferior_oblique_extraocular_muscle_L"
+      ]
+    },
+    {
+      "id": "left-optic-nerve",
+      "united": [
+        "VH_F_left_optic_nerve"
+      ]
+    },
+    {
+      "id": "optic-chiasm",
+      "official": [
+        [
+          "brain",
+          "VH_F_optic_chiasm"
+        ]
+      ]
+    },
+    {
+      "id": "optic-tract-right",
+      "official": [
+        [
+          "brain",
+          "Allen_optic_tract_L"
+        ],
+        [
+          "brain",
+          "Allen_optic_tract_R"
+        ]
+      ]
+    },
+    {
+      "id": "optic-tract-left",
+      "official": [
+        [
+          "brain",
+          "Allen_optic_tract_L"
+        ],
+        [
+          "brain",
+          "Allen_optic_tract_R"
+        ]
+      ]
+    },
+    {
+      "id": "lgn-right",
+      "official": [
+        [
+          "brain",
+          "Allen_dorsal_lateral_geniculate_nucleus_L"
+        ],
+        [
+          "brain",
+          "Allen_dorsal_lateral_geniculate_nucleus_R"
+        ]
+      ]
+    },
+    {
+      "id": "lgn-left",
+      "official": [
+        [
+          "brain",
+          "Allen_dorsal_lateral_geniculate_nucleus_L"
+        ],
+        [
+          "brain",
+          "Allen_dorsal_lateral_geniculate_nucleus_R"
+        ]
+      ]
+    },
+    {
+      "id": "optic-radiation-right",
+      "official": [
+        [
+          "brain",
+          "Allen_optic_radiation_L"
+        ],
+        [
+          "brain",
+          "Allen_optic_radiation_R"
+        ]
+      ]
+    },
+    {
+      "id": "optic-radiation-left",
+      "official": [
+        [
+          "brain",
+          "Allen_optic_radiation_L"
+        ],
+        [
+          "brain",
+          "Allen_optic_radiation_R"
+        ]
+      ]
+    },
+    {
+      "id": "visual-cortex-right",
+      "official": [
+        [
+          "brain",
+          "Allen_cuneus_L"
+        ],
+        [
+          "brain",
+          "Allen_cuneus_R"
+        ],
+        [
+          "brain",
+          "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L"
+        ],
+        [
+          "brain",
+          "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R"
+        ],
+        [
+          "brain",
+          "Allen_occipital_pole_L"
+        ],
+        [
+          "brain",
+          "Allen_occipital_pole_R"
+        ]
+      ]
+    },
+    {
+      "id": "visual-cortex-left",
+      "official": [
+        [
+          "brain",
+          "Allen_cuneus_L"
+        ],
+        [
+          "brain",
+          "Allen_cuneus_R"
+        ],
+        [
+          "brain",
+          "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_L"
+        ],
+        [
+          "brain",
+          "Allen_lingual_gyrus_medial_occipitotemporal_gyrus_R"
+        ],
+        [
+          "brain",
+          "Allen_occipital_pole_L"
+        ],
+        [
+          "brain",
+          "Allen_occipital_pole_R"
+        ]
+      ]
+    },
+    {
+      "id": "pretectal-area",
+      "official": [
+        [
+          "brain",
+          "Allen_pretectal_region_L"
+        ],
+        [
+          "brain",
+          "Allen_pretectal_region_R"
+        ]
+      ]
+    },
+    {
+      "id": "superior-colliculi",
+      "official": [
+        [
+          "brain",
+          "Allen_superior_colliculus_L"
+        ],
+        [
+          "brain",
+          "Allen_superior_colliculus_R"
+        ]
+      ]
+    }
+  ],
+  "shadingBake": {
+    "tool": "tools/bake-shading.mjs",
+    "config": {
+      "$comment": "Shading bake for the real-tissue look (tools/bake-shading.mjs). occluders: which layers can shade each layer. The clear media (cornea, conjunctiva, lens, humours) shade nothing, and the bones shade only bone, so hiding a layer never leaves dark shadows behind.",
+      "model": "public/models/eye.glb",
+      "provenance": "src/eye/generated/provenance.json",
+      "aoDistance": 0.003,
+      "rays": 48,
+      "rayOffset": 0.00008,
+      "noiseFrequency": 900,
+      "occluders": {
+        "fibrous": [
+          "fibrous",
+          "muscle"
+        ],
+        "conjunctiva": [
+          "conjunctiva"
+        ],
+        "eyelid": [
+          "eyelid"
+        ],
+        "uvea": [
+          "uvea"
+        ],
+        "retina": [
+          "retina",
+          "uvea"
+        ],
+        "lens": [
+          "lens"
+        ],
+        "chambers": [
+          "chambers"
+        ],
+        "muscle": [
+          "muscle",
+          "fibrous",
+          "nerve",
+          "vessel"
+        ],
+        "nerve": [
+          "nerve",
+          "muscle",
+          "vessel"
+        ],
+        "vessel": [
+          "vessel",
+          "nerve",
+          "muscle"
+        ],
+        "tear": [
+          "tear"
+        ],
+        "bone": [
+          "bone"
+        ],
+        "left-eye": [
+          "left-eye"
+        ],
+        "pathway": [
+          "pathway"
+        ],
+        "lid-lining": [
+          "lid-lining"
+        ]
+      },
+      "fat": null
+    },
+    "attribute": "_TISSUE (VEC4 unsigned byte, normalised): r ambient occlusion, g mottling noise, b fat proximity, a unused",
+    "unbakedSha256": "b2d7c093bee1de0d93d45091fc1c1d50ce5a7857c317949a93116e3320eacc13",
+    "unbakedOutput": {
+      "bytes": 3412872
+    },
+    "vertices": 93696,
+    "layers": {
+      "fibrous": {
+        "meshes": 3,
+        "meanAO": 0.837,
+        "vertices": 3365
+      },
+      "conjunctiva": {
+        "meshes": 1,
+        "meanAO": 0.996,
+        "vertices": 2025
+      },
+      "lid-lining": {
+        "meshes": 2,
+        "meanAO": 0.99,
+        "vertices": 2303
+      },
+      "uvea": {
+        "meshes": 5,
+        "meanAO": 0.554,
+        "vertices": 12717
+      },
+      "retina": {
+        "meshes": 5,
+        "meanAO": 0.463,
+        "vertices": 9040
+      },
+      "lens": {
+        "meshes": 2,
+        "meanAO": 0.694,
+        "vertices": 2372
+      },
+      "chambers": {
+        "meshes": 4,
+        "meanAO": 0.723,
+        "vertices": 7259
+      },
+      "muscle": {
+        "meshes": 10,
+        "meanAO": 0.883,
+        "vertices": 7003
+      },
+      "nerve": {
+        "meshes": 12,
+        "meanAO": 0.781,
+        "vertices": 13779
+      },
+      "vessel": {
+        "meshes": 5,
+        "meanAO": 0.631,
+        "vertices": 2438
+      },
+      "tear": {
+        "meshes": 5,
+        "meanAO": 0.87,
+        "vertices": 3916
+      },
+      "eyelid": {
+        "meshes": 2,
+        "meanAO": 0.983,
+        "vertices": 1908
+      },
+      "bone": {
+        "meshes": 9,
+        "meanAO": 0.883,
+        "vertices": 13004
+      },
+      "left-eye": {
+        "meshes": 5,
+        "meanAO": 0.654,
+        "vertices": 5145
+      },
+      "pathway": {
+        "meshes": 12,
+        "meanAO": 0.841,
+        "vertices": 7422
+      }
+    }
+  }
+}

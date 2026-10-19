@@ -1,0 +1,66 @@
+{
+  "$comment": "Shading bake for the real-tissue look (tools/bake-shading.mjs). occluders: which layers can shade each layer. The clear media (cornea, conjunctiva, lens, humours) shade nothing, and the bones shade only bone, so hiding a layer never leaves dark shadows behind.",
+  "model": "public/models/eye.glb",
+  "provenance": "src/eye/generated/provenance.json",
+  "aoDistance": 0.003,
+  "rays": 48,
+  "rayOffset": 8e-05,
+  "noiseFrequency": 900,
+  "occluders": {
+    "fibrous": [
+      "fibrous",
+      "muscle"
+    ],
+    "conjunctiva": [
+      "conjunctiva"
+    ],
+    "eyelid": [
+      "eyelid"
+    ],
+    "uvea": [
+      "uvea"
+    ],
+    "retina": [
+      "retina",
+      "uvea"
+    ],
+    "lens": [
+      "lens"
+    ],
+    "chambers": [
+      "chambers"
+    ],
+    "muscle": [
+      "muscle",
+      "fibrous",
+      "nerve",
+      "vessel"
+    ],
+    "nerve": [
+      "nerve",
+      "muscle",
+      "vessel"
+    ],
+    "vessel": [
+      "vessel",
+      "nerve",
+      "muscle"
+    ],
+    "tear": [
+      "tear"
+    ],
+    "bone": [
+      "bone"
+    ],
+    "left-eye": [
+      "left-eye"
+    ],
+    "pathway": [
+      "pathway"
+    ],
+    "lid-lining": [
+      "lid-lining"
+    ]
+  },
+  "fat": null
+}

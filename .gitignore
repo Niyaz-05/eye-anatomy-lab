@@ -1,0 +1,12 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+*.log
+.vercel/
+
+# Downloaded HuBMAP eye and brain files (32.7 MB). URLs, sizes and sha256 are in src/eye/generated/provenance.json
+/source/
