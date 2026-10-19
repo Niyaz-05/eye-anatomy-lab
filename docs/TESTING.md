@@ -47,6 +47,7 @@ Results recorded on 2026-10-19 on Windows 11, Node 22.14.0. Browser tests ran in
 | Determinism | **Pass**: re-extraction gives the same unbaked model (`b2d7c093bee1…`) and re-baking the recorded final sha256 (`c4195855cb92…`) |
 | `npm run build` | **Pass**. Vite warns about chunk size |
 | `npm run e2e` | **Pass**: 21/21. The network dropped twice, so the suite ran in parts: tests 1–11, then 12–16, then 17–21. After the last code change (the eye turns only in Movement mode), tests 2, 10–16 and 21 were run again and passed |
+| Live site (2026-10-19) | **Pass**: https://eye-anatomy-lab.vercel.app returns the page; `models/eye.glb` is served with the recorded sha256 `c4195855cb92…`; every mode opens in Chrome 155 with no console errors |
 | GPU check (Chrome 155, AMD Radeon, D3D11) | Every mode renders with no console errors. Ready in 12.6 s. Frame rates while rendering: Anatomy, cut, Vision, Retina and tour 60–64 fps; Movement 57; Pathway (animated) 43–53; Tears (animated) 26–33 fps (35 at low quality) |
 
 ## Defects found and fixed during QA

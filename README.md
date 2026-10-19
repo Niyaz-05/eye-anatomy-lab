@@ -1,5 +1,7 @@
 # Human Eye — Interactive 3D Learning Lab
 
+**Live:** https://eye-anatomy-lab.vercel.app
+
 A realistic, interactive 3D human eye for secondary-school and first-year biology:
 
 - **Real look.** A porcelain-white sclera with a wet sheen, a clear cornea and lens, a fibrous iris (brown, hazel, green or blue) with a black pupil, the dark uvea, the orange-red retina with its pale optic disc, red eye muscles, cream nerves and ivory bone. "Colour" switches to **Layers** to give each layer its own colour.
@@ -53,6 +55,10 @@ node tools/validate-assets.mjs
 ```
 
 Both steps are deterministic, and every input and the output are hashed in `src/eye/generated/provenance.json`, with the measured optics of the eye and the BodyParts3D fit.
+
+## Deploy
+
+The site is a Vercel project (Vite preset, output `dist/`) connected to [github.com/Niyaz-05/eye-anatomy-lab](https://github.com/Niyaz-05/eye-anatomy-lab). Every push to `main` deploys to https://eye-anatomy-lab.vercel.app; pushes to other branches get preview URLs.
 
 ## Layout
 
