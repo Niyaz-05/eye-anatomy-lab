@@ -2,6 +2,8 @@
 
 **Live:** https://eye-anatomy-lab.vercel.app
 
+Works on phones and tablets: the details rise from the bottom in a sheet you can drag, fold or close with a swipe down, and picking a structure frames it above the sheet.
+
 A realistic, interactive 3D human eye for secondary-school and first-year biology:
 
 - **Real look.** A porcelain-white sclera with a wet sheen, a clear cornea and lens, a fibrous iris (brown, hazel, green or blue) with a black pupil, the dark uvea, the orange-red retina with its pale optic disc, red eye muscles, cream nerves and ivory bone. "Colour" switches to **Layers** to give each layer its own colour.

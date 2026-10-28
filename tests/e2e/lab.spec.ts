@@ -26,7 +26,7 @@ const radio = (page: Page, name: string) => page.getByRole('radio', { name, exac
 const mode = (page: Page, name: string) => page.locator('nav[aria-label="Mode"] button', { hasText: new RegExp(`^${name}$`) }).click();
 const cameraButton = (page: Page, name: string) => page.locator('[aria-label="Camera views"] button', { hasText: new RegExp(`^${name}$`) });
 
-test('loads the eye without console errors and with a clean main screen', async ({ page }) => {
+test('loads the eye without console errors and with a clean main screen @smoke', async ({ page }) => {
   const errors = await open(page);
   await ready(page);
   await expect(page.getByRole('heading', { name: 'Human Eye', level: 1 })).toBeVisible();
@@ -258,7 +258,7 @@ test('guided tour navigates forward, back, and finishes', async ({ page }) => {
   await expect(page.getByRole('button', { name: 'Anatomy' })).toHaveAttribute('aria-pressed', 'true');
 });
 
-test('phone layout: structures open from the dock and details follow a pick', async ({ page }) => {
+test('phone layout: structures open from the dock and details follow a pick @smoke', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await open(page);
   await ready(page);
@@ -286,7 +286,7 @@ test('the About sheet holds the HuBMAP and BodyParts3D credits', async ({ page }
   await expect(dialog).toHaveCount(0);
 });
 
-test('without WebGL the learning content still works', async ({ page }) => {
+test('without WebGL the learning content still works @smoke', async ({ page }) => {
   await open(page, '?nowebgl');
   await expect(page.getByRole('heading', { name: '3D view unavailable' })).toBeVisible();
   await listButton(page, /^Lens$/).click();
